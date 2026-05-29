@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agro Forte, Futuro Sustentável</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVEGAÇÃO -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <i class="fas fa-leaf"></i>
+                <span>Agrinho 2026</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#importancia" class="nav-link">Importância</a></li>
+                <li class="nav-item"><a href="#solucoes" class="nav-link">Soluções</a></li>
+                <li class="nav-item"><a href="#galeria" class="nav-link">Galeria</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Agro Forte, Futuro Sustentável</h1>
+                <p class="hero-subtitle">Equilíbrio entre produção e meio ambiente</p>
+                <button class="btn btn-primary" onclick="document.getElementById('sobre').scrollIntoView({behavior: 'smooth'})">
+                    Saiba Mais
+                </button>
+            </div>
+            <div class="hero-image">
+                <svg class="hero-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="95" fill="none" stroke="#89A74D" stroke-width="2" opacity="0.3"/>
+                    <circle cx="100" cy="100" r="85" fill="none" stroke="#A5BD4D" stroke-width="1.5" opacity="0.2"/>
+                    <!-- Folhas decorativas -->
+                    <path d="M 100 20 Q 120 40 100 60 Q 80 40 100 20" fill="#4E6F3A" opacity="0.8"/>
+                    <path d="M 140 70 Q 155 85 140 105 Q 125 90 140 70" fill="#89A74D" opacity="0.7"/>
+                    <path d="M 60 75 Q 45 90 60 110 Q 75 95 60 75" fill="#89A74D" opacity="0.7"/>
+                    <path d="M 100 140 Q 120 155 100 170 Q 80 155 100 140" fill="#4E6F3A" opacity="0.8"/>
+                    <!-- Centro -->
+                    <circle cx="100" cy="100" r="30" fill="#A5BD4D" opacity="0.9"/>
+                </svg>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,50 Q300,0 600,50 T1200,50 L1200,120 L0,120 Z" fill="#F2F2E8"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- SOBRE O AGRINHO -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre o Agrinho 2026</h2>
+            <p class="section-subtitle">Conheça a iniciativa que transforma o futuro do agronegócio</p>
+            
+            <div class="sobre-grid">
+                <div class="sobre-card card-fade">
+                    <div class="sobre-icon">
+                        <i class="fas fa-sprout"></i>
+                    </div>
+                    <h3>Inovação</h3>
+                    <p>Tecnologias modernas e sustentáveis aplicadas no agronegócio brasileiro, promovendo eficiência e respeito ao meio ambiente.</p>
+                </div>
+
+                <div class="sobre-card card-fade">
+                    <div class="sobre-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Práticas agrícolas que preservam recursos naturais, mantêm a biodiversidade e garantem um futuro próspero para as próximas gerações.</p>
+                </div>
+
+                <div class="sobre-card card-fade">
+                    <div class="sobre-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Colaboração</h3>
+                    <p>Comunidades, pesquisadores e produtores trabalhando juntos para criar soluções inovadoras e responsáveis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMPORTÂNCIA DO EQUILÍBRIO -->
+    <section class="importancia" id="importancia">
+        <div class="container">
+            <h2 class="section-title">Equilíbrio: A Chave do Futuro</h2>
+            <p class="section-subtitle">Por que conciliar produção com sustentabilidade é essencial</p>
+
+            <div class="importancia-grid">
+                <div class="importancia-item card-fade">
+                    <div class="icon-circle">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Biodiversidade</h3>
+                    <p>Manter a riqueza biológica nos ecossistemas agrícolas garante polinização, controle de pragas e saúde do solo.</p>
+                </div>
+
+                <div class="importancia-item card-fade">
+                    <div class="icon-circle">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Recursos Hídricos</h3>
+                    <p>Práticas inteligentes de irrigação e conservação de água protegem este recurso essencial para o presente e futuro.</p>
+                </div>
+
+                <div class="importancia-item card-fade">
+                    <div class="icon-circle">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Solo Fértil</h3>
+                    <p>Técnicas regenerativas mantêm a fertilidade do solo, evitando erosão e garantindo produtividade duradoura.</p>
+                </div>
+
+                <div class="importancia-item card-fade">
+                    <div class="icon-circle">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Clima Estável</h3>
+                    <p>Reduzir emissões agrícolas e promover sequestro de carbono contribuem para combater as mudanças climáticas globais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOLUÇÕES E IDEIAS INOVADORAS -->
+    <section class="solucoes" id="solucoes">
+        <div class="container">
+            <h2 class="section-title">Soluções Inovadoras</h2>
+            <p class="section-subtitle">Ideias que transformam a agricultura em um modelo sustentável</p>
+
+            <div class="solucoes-grid">
+                <div class="solucao-card card-fade">
+                    <div class="card-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#ECF4C3"/>
+                            <rect x="30" y="60" width="8" height="20" fill="#4E6F3A"/>
+                            <circle cx="25" cy="50" r="6" fill="#89A74D"/>
+                            <circle cx="34" cy="45" r="7" fill="#A5BD4D"/>
+                            <circle cx="45" cy="40" r="6" fill="#89A74D"/>
+                            <circle cx="56" cy="42" r="7" fill="#A5BD4D"/>
+                            <circle cx="65" cy="48" r="6" fill="#89A74D"/>
+                            <circle cx="72" cy="58" r="5" fill="#A5BD4D"/>
+                        </svg>
+                    </div>
+                    <h3>Agricultura de Precisão</h3>
+                    <p>Uso de tecnologia IoT e sensores para monitorar as condições do solo em tempo real, otimizando recursos e reduzindo desperdícios.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Economia de água</li>
+                        <li><i class="fas fa-check"></i> Maior produtividade</li>
+                        <li><i class="fas fa-check"></i> Menor custo</li>
+                    </ul>
+                </div>
+
+                <div class="solucao-card card-fade">
+                    <div class="card-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#ECF4C3"/>
+                            <path d="M 50 30 L 60 45 L 45 55 Z" fill="#4E6F3A"/>
+                            <path d="M 50 50 L 65 60 L 50 70 Z" fill="#89A74D"/>
+                            <path d="M 50 50 L 35 60 L 50 70 Z" fill="#A5BD4D"/>
+                            <circle cx="50" cy="50" r="8" fill="#4E6F3A"/>
+                        </svg>
+                    </div>
+                    <h3>Energia Renovável</h3>
+                    <p>Integração de painéis solares e turbinas eólicas nas propriedades rurais, reduzindo custos energéticos e emissões.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Energia limpa</li>
+                        <li><i class="fas fa-check"></i> Autossuficiência</li>
+                        <li><i class="fas fa-check"></i> Lucratividade extra</li>
+                    </ul>
+                </div>
+
+                <div class="solucao-card card-fade">
+                    <div class="card-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#ECF4C3"/>
+                            <ellipse cx="50" cy="45" rx="20" ry="25" fill="none" stroke="#4E6F3A" stroke-width="2"/>
+                            <path d="M 35 50 Q 50 65 65 50" fill="none" stroke="#89A74D" stroke-width="2"/>
+                            <circle cx="50" cy="45" r="5" fill="#A5BD4D"/>
+                        </svg>
+                    </div>
+                    <h3>Agroecologia</h3>
+                    <p>Técnicas que combinam biodiversidade, rotação de culturas e controle biológico para um ecossistema equilibrado.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Saúde do solo</li>
+                        <li><i class="fas fa-check"></i> Menos químicos</li>
+                        <li><i class="fas fa-check"></i> Produção orgânica</li>
+                    </ul>
+                </div>
+
+                <div class="solucao-card card-fade">
+                    <div class="card-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#ECF4C3"/>
+                            <rect x="25" y="35" width="50" height="35" rx="5" fill="none" stroke="#4E6F3A" stroke-width="2"/>
+                            <line x1="35" y1="40" x2="35" y2="65" stroke="#89A74D" stroke-width="1.5"/>
+                            <line x1="50" y1="40" x2="50" y2="65" stroke="#A5BD4D" stroke-width="1.5"/>
+                            <line x1="65" y1="40" x2="65" y2="65" stroke="#89A74D" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+                    <h3>Rastreabilidade</h3>
+                    <p>Blockchain e QR codes para rastrear produtos do campo à mesa, garantindo qualidade e sustentabilidade da cadeia.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Transparência total</li>
+                        <li><i class="fas fa-check"></i> Confiança do consumidor</li>
+                        <li><i class="fas fa-check"></i> Valorização de produtos</li>
+                    </ul>
+                </div>
+
+                <div class="solucao-card card-fade">
+                    <div class="card-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#ECF4C3"/>
+                            <path d="M 50 25 L 70 40 L 70 70 L 30 70 L 30 40 Z" fill="none" stroke="#4E6F3A" stroke-width="2"/>
+                            <circle cx="50" cy="60" r="6" fill="#89A74D"/>
+                            <rect x="45" y="30" width="10" height="20" fill="#A5BD4D" opacity="0.5"/>
+                        </svg>
+                    </div>
+                    <h3>Educação Rural</h3>
+                    <p>Capacitação de produtores em práticas sustentáveis através de cursos, workshops e mentoria com especialistas.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Conhecimento atualizado</li>
+                        <li><i class="fas fa-check"></i> Comunidade engajada</li>
+                        <li><i class="fas fa-check"></i> Inovação contínua</li>
+                    </ul>
+                </div>
+
+                <div class="solucao-card card-fade">
+                    <div class="card-image">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="45" fill="#ECF4C3"/>
+                            <path d="M 50 30 L 65 45 L 55 45 L 55 65 L 45 65 L 45 45 L 35 45 Z" fill="#4E6F3A"/>
+                            <path d="M 30 50 L 70 50" stroke="#89A74D" stroke-width="2"/>
+                            <path d="M 50 30 L 50 70" stroke="#A5BD4D" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Circularidade</h3>
+                    <p>Modelos que transformam resíduos agrícolas em recursos, como compostagem, biogás e biomateriais de valor agregado.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check"></i> Zero desperdício</li>
+                        <li><i class="fas fa-check"></i> Renda adicional</li>
+                        <li><i class="fas fa-check"></i> Ambiente limpo</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <h2 class="section-title">Galeria de Inspirações</h2>
+            <p class="section-subtitle">Veja projetos e iniciativas que já estão transformando o agronegócio</p>
+
+            <div class="galeria-grid">
+                <div class="galeria-item card-fade">
+                    <div class="galeria-image" style="background: linear-gradient(135deg, #4E6F3A 0%, #89A74D 100%);">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Plantação Sustentável</h3>
+                    <p>Técnicas de cultivo integrado em harmonia com a natureza</p>
+                </div>
+
+                <div class="galeria-item card-fade">
+                    <div class="galeria-image" style="background: linear-gradient(135deg, #89A74D 0%, #A5BD4D 100%);">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Energia Solar Rural</h3>
+                    <p>Painéis solares em propriedades agrícolas gerando lucro extra</p>
+                </div>
+
+                <div class="galeria-item card-fade">
+                    <div class="galeria-image" style="background: linear-gradient(135deg, #A5BD4D 0%, #ECF4C3 100%);">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Biodiversidade</h3>
+                    <p>Preservação e expansão da vida selvagem nas áreas rurais</p>
+                </div>
+
+                <div class="galeria-item card-fade">
+                    <div class="galeria-image" style="background: linear-gradient(135deg, #4E6F3A 0%, #A5BD4D 100%);">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Inovação Agrícola</h3>
+                    <p>Tecnologias IoT e drones revolucionando a agricultura</p>
+                </div>
+
+                <div class="galeria-item card-fade">
+                    <div class="galeria-image" style="background: linear-gradient(135deg, #89A74D 0%, #ECF4C3 100%);">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Educação Ambiental</h3>
+                    <p>Comunidades aprendendo sobre práticas sustentáveis</p>
+                </div>
+
+                <div class="galeria-item card-fade">
+                    <div class="galeria-image" style="background: linear-gradient(135deg, #A5BD4D 0%, #4E6F3A 100%);">
+                        <i class="fas fa-image"></i>
+                    </div>
+                    <h3>Futuro Sustentável</h3>
+                    <p>Gerações futuras colhendo os benefícios de nossas ações</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para transformar a agricultura?</h2>
+            <p>Junte-se a nós nessa jornada rumo a um futuro mais sustentável e produtivo</p>
+            <button class="btn btn-secondary">Comece Agora</button>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Agrinho 2026</h4>
+                    <p>Transformando o futuro da agricultura através de inovação e sustentabilidade.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contato@agrinho2026.com.br</li>
+                        <li><i class="fas fa-phone"></i> (11) 9999-9999</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP - Brasil</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Receba as últimas notícias sobre sustentabilidade agrícola</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit" class="btn btn-primary">Inscrever</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agrinho - Agro Forte, Futuro Sustentável. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacidade</a>
+                    <a href="#terms">Termos</a>
+                    <a href="#cookies">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
